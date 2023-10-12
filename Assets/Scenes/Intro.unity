@@ -135,10 +135,10 @@ GameObject:
   - component: {fileID: 285343245}
   - component: {fileID: 285343244}
   - component: {fileID: 285343243}
-  - component: {fileID: 285343247}
   - component: {fileID: 285343246}
+  - component: {fileID: 285343247}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Intro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -271,13 +271,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 7a8d7499b1c4cc6489f81c9c970f0fb7, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 285343247}
+        m_TargetAssemblyTypeName: Intro, Assembly-CSharp
+        m_MethodName: Gamestart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
